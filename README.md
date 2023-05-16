@@ -1,38 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Titlu: Fashion Article App
+Nume Prenume: Nicoara Catinca-Maria
+Grupa: 1120
 
-## Getting Started
+1.	Introducere
 
-First, run the development server:
+In zilele noastre, tehnologiile din jurul nostru sunt create pentru a eficientiza munca oamenilor, reusind sa inlocuiasca anumite actiuni repetitive, care doar ar creste timpul de rezolvare ale diferitelor activitati, sau sa creasca rapiditatea altor actiuni. De asemenea, este esential ca marea majoritate a aplicatiilor sa stocheze diverse date prin intermediul mijloacelor puse la dispozitie de diverse companii specializate. Astfel, se faciliteaza accesul catre date, pentru personalul autorizat, care are nevoie pentru a le utiliza in diverse contexte.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+2.	Descrierea problemei
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aplicatia este menita sa prezinte cititorilor principalele articole din lumea modei. Aceasta afiseaza printr-o modalitate lizibila articolele, separandu-le prin intermediul casetelor care gazduiesc informatiile titlul si butonul care sterge articolele care nu mai sunt de interes pentru cititori. De asemenea, aplicatia contine si o pagina pentru inserarea articolelor.
+Aplicatia poate fi accesata de catre orice persoana, fara sa necesite cunostinte avansate de utilizare a calculatorului.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3.	Descriere API
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Aplicatia contine o pagina denumia “apiMethods”, in care sunt definite mesajele de status in cazul diferitelor situatii care pot aparea. 
+De asemena, folderul “api” contine diverse functii cu privire la datele care se introduce in aplicatie.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+4.	Flux de date
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Aplicatia salveaza articolele introduse in serviciul de cloud “MongoDB Compass”, ce permite accesarea facila a datelor salvate in prealabil, prin intermediul paginii special create pentru inserare.
+Rutele personalizate sunt create pentru a putea permite utilizatorilor sa efectueze diferite operatiuni, cum ar fi inserarea si stergerea articolelor.
+Aplicatia a fost incarcata ulterior pe “Vercel”, pentru a putea fi accesata mai usor de catre utilizatori. 
 
-## Learn More
+5.	Capturi de ecran
 
-To learn more about Next.js, take a look at the following resources:
+ ![image](https://github.com/catincanicoara/proiect_cloud_computing/assets/91590811/932e95d9-ea83-43a9-bd5f-6344aa8ea6e7)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/catincanicoara/proiect_cloud_computing/assets/91590811/47c2108d-5d7c-4ff8-ab3d-3a0ceee240cf)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ 
 
-## Deploy on Vercel
+6.	Referinte
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Link video YouTube: https://youtu.be/8aD7Q6igcog
+Link video Vercel: https://proiect-cloud-computing-b78ytp14d-nicoaracatinca19-asero.vercel.app/
+Link GitHub: https://github.com/catincanicoara/proiect_cloud_computing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
